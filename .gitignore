@@ -1,0 +1,12 @@
+# Dados do parceiro e artefatos derivados: nunca versionar
+data/
+outputs/
+models/
+*.parquet
+*.pkl
+*.xlsx
+*.csv
+__pycache__/
+.DS_Store
+.streamlit/secrets.toml
+.env
