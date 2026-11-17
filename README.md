@@ -87,7 +87,3 @@ Os caminhos esperados dos dados estão em [`tratamento/radar/config.py`](tratame
 
 ## Stack
 Python, pandas, NumPy, scikit-learn, XGBoost, Prophet, Streamlit, Plotly.
-
-## Autoria
-Trabalho em grupo. Integrantes: _(preencher)_.
-Minha participação: _(preencher)_.
