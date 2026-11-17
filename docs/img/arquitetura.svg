@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#22d3ee"/></marker>
+  </defs>
+  <rect width="1100" height="420" rx="14" fill="#0b1020"/>
+  <text x="550" y="42" text-anchor="middle" fill="#e6edf7" font-size="22" font-weight="700">Radar do Caos · arquitetura da solução</text>
+  <g fill="#131a2e" stroke="#2b3656" stroke-width="1.5">
+    <rect x="30" y="90" width="190" height="230" rx="10"/>
+    <rect x="270" y="90" width="190" height="230" rx="10"/>
+    <rect x="510" y="90" width="190" height="230" rx="10"/>
+    <rect x="750" y="90" width="190" height="230" rx="10"/>
+  </g>
+  <g fill="#22d3ee" font-size="15" font-weight="700" text-anchor="middle">
+    <text x="125" y="120">1 · Dados</text><text x="365" y="120">2 · Tratamento</text>
+    <text x="605" y="120">3 · Modelagem</text><text x="845" y="120">4 · Dashboard</text>
+  </g>
+  <g fill="#cfd8ea" font-size="13" text-anchor="middle">
+    <text x="125" y="155">Chamados de TI</text><text x="125" y="177">(fornecidos pelo parceiro,</text><text x="125" y="197">anonimizados)</text>
+    <text x="125" y="240">Prioridade P2 / P3</text><text x="125" y="260">OLA · grupo · produto</text><text x="125" y="280">texto do chamado</text>
+    <text x="365" y="155">Pacote radar</text><text x="365" y="185">prepare · features</text><text x="365" y="205">patterns · anomalies</text>
+    <text x="365" y="225">risk · kpi</text><text x="365" y="245">recommendations</text><text x="365" y="285">séries diárias,</text><text x="365" y="305">calendário e feriados</text>
+    <text x="605" y="155">Holdout de 28 dias</text><text x="605" y="185">XGBoost (volume)</text><text x="605" y="205">Prophet com regimes</text>
+    <text x="605" y="225">TF-IDF + KMeans</text><text x="605" y="245">XGBoost (risco de OLA)</text><text x="605" y="285">previsão D+1 … D+7</text><text x="605" y="305">com intervalo de confiança</text>
+    <text x="845" y="155">Streamlit + Plotly</text><text x="845" y="185">01 Antecipar incidentes</text><text x="845" y="205">02 Identificar tendências</text>
+    <text x="845" y="225">03 Impacto nos KPIs</text><text x="845" y="245">04 Apoiar decisão</text><text x="845" y="285">recomendações</text><text x="845" y="305">para a operação</text>
+  </g>
+  <g stroke="#22d3ee" stroke-width="2.5" marker-end="url(#a)">
+    <line x1="222" y1="205" x2="266" y2="205"/><line x1="462" y1="205" x2="506" y2="205"/><line x1="702" y1="205" x2="746" y2="205"/>
+  </g>
+  <rect x="750" y="345" width="190" height="42" rx="8" fill="none" stroke="#ff2d95" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="845" y="371" text-anchor="middle" fill="#ff2d95" font-size="13">decisão da equipe de operação</text>
+  <line x1="845" y1="322" x2="845" y2="343" stroke="#ff2d95" stroke-width="2" marker-end="url(#a)"/>
+  <text x="30" y="372" fill="#8a97b5" font-size="12">Dados, modelos treinados e saídas derivadas não são versionados neste repositório.</text>
+</svg>
